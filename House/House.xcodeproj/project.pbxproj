@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		8EC22FCE23AE8AC800CC2E02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC22FCD23AE8AC800CC2E02 /* main.m */; };
 		8EC22FD623AE8B2200CC2E02 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC22FD523AE8B2200CC2E02 /* House.m */; };
+		8EC22FD923AFAFCF00CC2E02 /* Bedroom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC22FD823AFAFCF00CC2E02 /* Bedroom.m */; };
+		8EC22FDC23AFB1FB00CC2E02 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC22FDB23AFB1FB00CC2E02 /* Person.m */; };
+		8EC22FDF23AFB3BC00CC2E02 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC22FDE23AFB3BC00CC2E02 /* Book.m */; };
+		8EC22FE723AFB64500CC2E02 /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC22FE623AFB64500CC2E02 /* RPSGame.m */; };
+		8EC22FEA23AFB66300CC2E02 /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC22FE923AFB66300CC2E02 /* RPSTurn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +33,16 @@
 		8EC22FCD23AE8AC800CC2E02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EC22FD423AE8B2200CC2E02 /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
 		8EC22FD523AE8B2200CC2E02 /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		8EC22FD723AFAFCF00CC2E02 /* Bedroom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bedroom.h; sourceTree = "<group>"; };
+		8EC22FD823AFAFCF00CC2E02 /* Bedroom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bedroom.m; sourceTree = "<group>"; };
+		8EC22FDA23AFB1FB00CC2E02 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8EC22FDB23AFB1FB00CC2E02 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8EC22FDD23AFB3BC00CC2E02 /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		8EC22FDE23AFB3BC00CC2E02 /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		8EC22FE523AFB64500CC2E02 /* RPSGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
+		8EC22FE623AFB64500CC2E02 /* RPSGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
+		8EC22FE823AFB66300CC2E02 /* RPSTurn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSTurn.h; sourceTree = "<group>"; };
+		8EC22FE923AFB66300CC2E02 /* RPSTurn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				8EC22FCC23AE8AC800CC2E02 /* House */,
+				8EC22FE423AFB62900CC2E02 /* RockPaperScissors */,
 				8EC22FCB23AE8AC800CC2E02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,10 +77,59 @@
 			isa = PBXGroup;
 			children = (
 				8EC22FCD23AE8AC800CC2E02 /* main.m */,
+				8EC22FE023AFB3C300CC2E02 /* House */,
+				8EC22FE123AFB3CA00CC2E02 /* Bedroom */,
+				8EC22FE323AFB3DD00CC2E02 /* Book */,
+			);
+			path = House;
+			sourceTree = "<group>";
+		};
+		8EC22FE023AFB3C300CC2E02 /* House */ = {
+			isa = PBXGroup;
+			children = (
 				8EC22FD423AE8B2200CC2E02 /* House.h */,
 				8EC22FD523AE8B2200CC2E02 /* House.m */,
 			);
 			path = House;
+			sourceTree = "<group>";
+		};
+		8EC22FE123AFB3CA00CC2E02 /* Bedroom */ = {
+			isa = PBXGroup;
+			children = (
+				8EC22FD723AFAFCF00CC2E02 /* Bedroom.h */,
+				8EC22FD823AFAFCF00CC2E02 /* Bedroom.m */,
+			);
+			path = Bedroom;
+			sourceTree = "<group>";
+		};
+		8EC22FE223AFB3D400CC2E02 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				8EC22FDA23AFB1FB00CC2E02 /* Person.h */,
+				8EC22FDB23AFB1FB00CC2E02 /* Person.m */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		8EC22FE323AFB3DD00CC2E02 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				8EC22FE223AFB3D400CC2E02 /* Person */,
+				8EC22FDD23AFB3BC00CC2E02 /* Book.h */,
+				8EC22FDE23AFB3BC00CC2E02 /* Book.m */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		8EC22FE423AFB62900CC2E02 /* RockPaperScissors */ = {
+			isa = PBXGroup;
+			children = (
+				8EC22FE523AFB64500CC2E02 /* RPSGame.h */,
+				8EC22FE623AFB64500CC2E02 /* RPSGame.m */,
+				8EC22FE823AFB66300CC2E02 /* RPSTurn.h */,
+				8EC22FE923AFB66300CC2E02 /* RPSTurn.m */,
+			);
+			path = RockPaperScissors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC22FDF23AFB3BC00CC2E02 /* Book.m in Sources */,
 				8EC22FD623AE8B2200CC2E02 /* House.m in Sources */,
+				8EC22FEA23AFB66300CC2E02 /* RPSTurn.m in Sources */,
+				8EC22FD923AFAFCF00CC2E02 /* Bedroom.m in Sources */,
+				8EC22FDC23AFB1FB00CC2E02 /* Person.m in Sources */,
 				8EC22FCE23AE8AC800CC2E02 /* main.m in Sources */,
+				8EC22FE723AFB64500CC2E02 /* RPSGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,18 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import "House.h"
+#import "RPSGame.h"
+#import "RPSTurn.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSMutableString *myAdress = [[NSMutableString alloc] initWithString: @"555 Avenue Street"];
+        RPSTurn *firstTurn = [[RPSTurn alloc] initWithMove: Rock];
+        RPSTurn *secondTurn = [[RPSTurn alloc] initWithMove: Scissors];
         
-        House *myHouse = [[House alloc] initWithAdress: myAdress];
+        RPSGame *rpsGame = [[RPSGame alloc] initWithFirstTurn: firstTurn    secondTurn: secondTurn];
         
-        NSLog(@"Hello, World! My adress: %@. My number of bedrooms: %d", myHouse.adress, myHouse.numberOfBedrooms);
-        
-        [myAdress appendString: @"Gavrilova Str"];
-        
-        NSLog(@"My adress again: %@", myHouse.adress);
+        NSLog(@"Let's play. Player move: %@, computer move: %@", rpsGame.firstTurn, rpsGame.secondTurn);
     }
     return 0;
 }
