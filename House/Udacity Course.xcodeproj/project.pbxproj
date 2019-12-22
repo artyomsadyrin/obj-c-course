@@ -29,7 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8EC22FCA23AE8AC800CC2E02 /* House */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = House; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC22FCA23AE8AC800CC2E02 /* Udacity Course */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Udacity Course"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC22FCD23AE8AC800CC2E02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EC22FD423AE8B2200CC2E02 /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
 		8EC22FD523AE8B2200CC2E02 /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
@@ -59,7 +59,10 @@
 		8EC22FC123AE8AC800CC2E02 = {
 			isa = PBXGroup;
 			children = (
+				8EC22FCD23AE8AC800CC2E02 /* main.m */,
 				8EC22FCC23AE8AC800CC2E02 /* House */,
+				8EC22FE123AFB3CA00CC2E02 /* Bedroom */,
+				8EC22FE323AFB3DD00CC2E02 /* Book */,
 				8EC22FE423AFB62900CC2E02 /* RockPaperScissors */,
 				8EC22FCB23AE8AC800CC2E02 /* Products */,
 			);
@@ -68,23 +71,12 @@
 		8EC22FCB23AE8AC800CC2E02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8EC22FCA23AE8AC800CC2E02 /* House */,
+				8EC22FCA23AE8AC800CC2E02 /* Udacity Course */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 		8EC22FCC23AE8AC800CC2E02 /* House */ = {
-			isa = PBXGroup;
-			children = (
-				8EC22FCD23AE8AC800CC2E02 /* main.m */,
-				8EC22FE023AFB3C300CC2E02 /* House */,
-				8EC22FE123AFB3CA00CC2E02 /* Bedroom */,
-				8EC22FE323AFB3DD00CC2E02 /* Book */,
-			);
-			path = House;
-			sourceTree = "<group>";
-		};
-		8EC22FE023AFB3C300CC2E02 /* House */ = {
 			isa = PBXGroup;
 			children = (
 				8EC22FD423AE8B2200CC2E02 /* House.h */,
@@ -135,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EC22FC923AE8AC800CC2E02 /* House */ = {
+		8EC22FC923AE8AC800CC2E02 /* Udacity Course */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EC22FD123AE8AC800CC2E02 /* Build configuration list for PBXNativeTarget "House" */;
+			buildConfigurationList = 8EC22FD123AE8AC800CC2E02 /* Build configuration list for PBXNativeTarget "Udacity Course" */;
 			buildPhases = (
 				8EC22FC623AE8AC800CC2E02 /* Sources */,
 				8EC22FC723AE8AC800CC2E02 /* Frameworks */,
@@ -147,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = House;
+			name = "Udacity Course";
 			productName = House;
-			productReference = 8EC22FCA23AE8AC800CC2E02 /* House */;
+			productReference = 8EC22FCA23AE8AC800CC2E02 /* Udacity Course */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8EC22FC523AE8AC800CC2E02 /* Build configuration list for PBXProject "House" */;
+			buildConfigurationList = 8EC22FC523AE8AC800CC2E02 /* Build configuration list for PBXProject "Udacity Course" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -179,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EC22FC923AE8AC800CC2E02 /* House */,
+				8EC22FC923AE8AC800CC2E02 /* Udacity Course */,
 			);
 		};
 /* End PBXProject section */
@@ -334,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EC22FC523AE8AC800CC2E02 /* Build configuration list for PBXProject "House" */ = {
+		8EC22FC523AE8AC800CC2E02 /* Build configuration list for PBXProject "Udacity Course" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EC22FCF23AE8AC800CC2E02 /* Debug */,
@@ -343,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EC22FD123AE8AC800CC2E02 /* Build configuration list for PBXNativeTarget "House" */ = {
+		8EC22FD123AE8AC800CC2E02 /* Build configuration list for PBXNativeTarget "Udacity Course" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EC22FD223AE8AC800CC2E02 /* Debug */,
