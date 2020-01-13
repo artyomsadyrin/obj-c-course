@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B7C216223C62AFC007D35BE /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C216123C62AFC007D35BE /* RPSController.m */; };
 		8EC22FCE23AE8AC800CC2E02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC22FCD23AE8AC800CC2E02 /* main.m */; };
 		8EC22FD623AE8B2200CC2E02 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC22FD523AE8B2200CC2E02 /* House.m */; };
 		8EC22FD923AFAFCF00CC2E02 /* Bedroom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC22FD823AFAFCF00CC2E02 /* Bedroom.m */; };
@@ -29,7 +30,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8EC22FCA23AE8AC800CC2E02 /* Udacity Course */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Udacity Course"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7C216023C62AFC007D35BE /* RPSController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		7B7C216123C62AFC007D35BE /* RPSController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
+		8EC22FCA23AE8AC800CC2E02 /* Obj-C Course */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Obj-C Course"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC22FCD23AE8AC800CC2E02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EC22FD423AE8B2200CC2E02 /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
 		8EC22FD523AE8B2200CC2E02 /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
@@ -71,7 +74,7 @@
 		8EC22FCB23AE8AC800CC2E02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8EC22FCA23AE8AC800CC2E02 /* Udacity Course */,
+				8EC22FCA23AE8AC800CC2E02 /* Obj-C Course */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +123,8 @@
 				8EC22FE623AFB64500CC2E02 /* RPSGame.m */,
 				8EC22FE823AFB66300CC2E02 /* RPSTurn.h */,
 				8EC22FE923AFB66300CC2E02 /* RPSTurn.m */,
+				7B7C216023C62AFC007D35BE /* RPSController.h */,
+				7B7C216123C62AFC007D35BE /* RPSController.m */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -127,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EC22FC923AE8AC800CC2E02 /* Udacity Course */ = {
+		8EC22FC923AE8AC800CC2E02 /* Obj-C Course */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EC22FD123AE8AC800CC2E02 /* Build configuration list for PBXNativeTarget "Udacity Course" */;
+			buildConfigurationList = 8EC22FD123AE8AC800CC2E02 /* Build configuration list for PBXNativeTarget "Obj-C Course" */;
 			buildPhases = (
 				8EC22FC623AE8AC800CC2E02 /* Sources */,
 				8EC22FC723AE8AC800CC2E02 /* Frameworks */,
@@ -139,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = "Udacity Course";
+			name = "Obj-C Course";
 			productName = House;
-			productReference = 8EC22FCA23AE8AC800CC2E02 /* Udacity Course */;
+			productReference = 8EC22FCA23AE8AC800CC2E02 /* Obj-C Course */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8EC22FC523AE8AC800CC2E02 /* Build configuration list for PBXProject "Udacity Course" */;
+			buildConfigurationList = 8EC22FC523AE8AC800CC2E02 /* Build configuration list for PBXProject "Obj-C Course" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EC22FC923AE8AC800CC2E02 /* Udacity Course */,
+				8EC22FC923AE8AC800CC2E02 /* Obj-C Course */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +189,7 @@
 				8EC22FDF23AFB3BC00CC2E02 /* Book.m in Sources */,
 				8EC22FD623AE8B2200CC2E02 /* House.m in Sources */,
 				8EC22FEA23AFB66300CC2E02 /* RPSTurn.m in Sources */,
+				7B7C216223C62AFC007D35BE /* RPSController.m in Sources */,
 				8EC22FD923AFAFCF00CC2E02 /* Bedroom.m in Sources */,
 				8EC22FDC23AFB1FB00CC2E02 /* Person.m in Sources */,
 				8EC22FCE23AE8AC800CC2E02 /* main.m in Sources */,
@@ -326,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EC22FC523AE8AC800CC2E02 /* Build configuration list for PBXProject "Udacity Course" */ = {
+		8EC22FC523AE8AC800CC2E02 /* Build configuration list for PBXProject "Obj-C Course" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EC22FCF23AE8AC800CC2E02 /* Debug */,
@@ -335,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EC22FD123AE8AC800CC2E02 /* Build configuration list for PBXNativeTarget "Udacity Course" */ = {
+		8EC22FD123AE8AC800CC2E02 /* Build configuration list for PBXNativeTarget "Obj-C Course" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EC22FD223AE8AC800CC2E02 /* Debug */,

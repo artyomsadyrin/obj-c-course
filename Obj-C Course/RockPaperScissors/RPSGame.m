@@ -7,6 +7,7 @@
 //
 
 #import "RPSGame.h"
+#import "RPSTurn.h"
 
 @implementation RPSGame
 
@@ -19,6 +20,14 @@
         _secondTurn = computerTurn;
     }
     return self;
+}
+
+-(RPSTurn*) winner {
+    return [self.firstTurn defeats: self.secondTurn] ? self.firstTurn : self.secondTurn;
+}
+
+-(RPSTurn*) looser {
+    return [self.firstTurn defeats: self.secondTurn] ? self.secondTurn : self.firstTurn;
 }
 
 @end
