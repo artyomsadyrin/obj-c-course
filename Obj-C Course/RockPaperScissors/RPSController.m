@@ -31,7 +31,7 @@
         
         NSString *winnerString = [[game winner] description];
         NSString *looserString = [[game looser] description];
-        NSString *resultsString = [self resultString: game];
+        NSString *resultsString = [self resultString:game];
         
         NSString *wholeString = [NSString stringWithFormat: @"%@ %@ %@ %s %@", winnerString, @" defeats ", looserString, "@.", resultsString];
         
